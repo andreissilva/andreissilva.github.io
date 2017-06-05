@@ -1,0 +1,29 @@
+{margin: 0; padding:0;}
+
+body{ background-color:#e0e0e0; }
+
+p{font-weight: 500;}
+
+.Pmobile{color: #c7060e;} /* CLASSE DE COR DO TEXTO MENU MOBILE */
+
+body {display: flex;	min-height: 100vh;	flex-direction: column;} /* BODY */
+
+main {flex: 1 0 auto;}
+
+#topo{position: fixed !important;color: #fff; z-index: 999; height: 64px;} /* DIV QUE ACOPLA O TOPO DO SITE ( FIXO ) */
+
+
+.Plink{letter-spacing: 5px;	color: red;} /* CLASSE QUE EDITA O LINK (BUTTOM) SAIBA MAIS */
+
+
+#slide{z-index: 1 !important;display: flex; margin-top: 77px;}/* DIV QUE ACOPLA O SLIDE */
+
+
+/*#Colform{height: 860px;} DIV TAM FORMULARIO */
+
+#colformulario{margin-top: 100px; }
+
+.footericons{width: 50px;}
+
+#men{width: 70px; margin-top: -3px;}
+

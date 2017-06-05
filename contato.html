@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<!-- ABAIXO SEGUE A PADRONIZAÇÃO, ESTILIZAÇÃO(CSS) DO SITE -->
+	<meta charset="utf-8">      
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<title> Andrei Silva - FW </title>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- MATERIALIZE CSS -->
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" />
+
+
+
+</head>
+
+<body><!-- CORPO DO SITE -->   
+
+
+	<nav id="topo" class="z-depth-1 grey lighten-5"><!-- MENU NAVEGAÇAO -->
+
+		<div class="nav-wrapper container">
+
+			<a href="index.html" class="brand-logo left position-fixed"><img alt="Aqui possui um logo" class="responsive-img" id="men" src="img/logo/amaterial.png"></a>
+			<a href="#" data-activates="menu-mobile" class="button-collapse right">
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i> 
+			</a>
+
+
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li class="waves-effect waves-reD"><a href="index.html">Inicio</a></li>
+				<li class="waves-effect waves-red"><a href="quemsoueu.html">Quem sou eu</a></li>
+				<li class="waves-effect waves-red"><a href="hobbies.html">Hobbies</a></li>
+				<li class="waves-effect waves-red"><a href="contato.html">Contato</a></li>
+			</ul>
+			
+			<!-- MENU MOBILE -->    
+
+			<ul id="menu-mobile" class="side-nav blue darken-4 btn-large">
+				<li class="active"><a href="index.html"><blockquote><p class="Pmobile">Inicio</p></blockquote></a></li>
+				<li><a href="quemsoueu.html"><blockquote><p class="Pmobile">Quem sou eu</p></blockquote></a></li>
+				<li><a href="hobbies.html"><blockquote><p class="Pmobile">Hobbies</p></blockquote></a></li>
+				<li><a href="contato.html"><blockquote><p class="Pmobile"> Contato</p></blockquote></a></li>
+
+			</ul>
+
+
+
+		</div>
+	</nav>     
+
+
+	<div class="container hide-on-large-only"> <!-- CONTAINER CONTEUDO TABLET & SMARTPHONE -->
+
+		<div class="row"><!-- ESSA DIV REPRESENTA AS LINHAS -->
+			<div class="col s12 m12 grey lighten-3"> <!-- ESSA LINHA REPRESENTA AS COLUNAS -->
+
+			</div>
+
+
+			<div class="col s12 m12 grey lighten-3 z-depth-3"" > <!-- ESSA LINHA REPRESENTA AS COLUNAS -->
+
+				<form class="col s12" id="colformulario"><!-- FORMULARIO CONTATOS SMART TAB -->
+					<div class="row">
+						<div class="input-field col s6">
+							<input placeholder="Ex: Francisco Antônio" id="first_name" type="text" class="validate">
+							<label alt="Campo primeiro nome no formulario" for="first_name"><p class="black-text">Primeiro Nome</p></label>
+						</div>
+						<div class="input-field col s6">
+							<input placeholder="Ex: Da Silva" id="last_name" type="text" class="validate">
+							<label alt="Campo ultimo nome no formulario" for="last_name"><p class="black-text">Último Nome</p></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input activate placeholder="Ex: 40 anos" id="idade" type="text" class="validate">
+							<label alt="Campo idade no formulario" for="disabled"><p class="black-text">Idade</p></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="number" type="text" class="validate" placeholder="Ex: 11-2233-4455">
+							<label for="number" alt="Campo Telefone no formulario"><p class="black-text">Telefone</p></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="email" type="email" class="validate" placeholder="fulano@mail.com">
+							<label for="email" alt="Campo Email no formulario"><p class="black-text">Email</p></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<div class="input-field inline">
+								<input id="email" type="email" class="validate">
+								<label alt="Campo para confirmar email no formulario" for="email" data-error="wrong" data-success="right"><p class="black-text">Confirme seu Email</p></label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s12">
+									<textarea id="textarea1" class="materialize-textarea"></textarea>
+									<label for="textarea1" alt="Campo para comentário no formulario"><p class="black-text">Deixe seu comentário:</p></label>
+								</div>
+							</div>
+							<button class="waves-effect waves-darken btn red darken-3" >ENVIAR <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="card  grey lighten-3  black-text medium z-depth-5"><!-- CARD MAIS CONTATOS -->
+			<div class="card-image waves-effect waves-block waves-darken">
+				<img class="activator" src="img/bandrei.jpg">
+			</div>
+			<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4"><h5 class="black-text center">CONTATE-ME PARA MAIS INFORMAÇÕES OU SERVIÇOS !</h5></span>
+
+			</div>
+			<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4"><h4 class="black-text">Contatos</h4><i class="fa fa-times" aria-hidden="true"></i></span>
+				<H5 class="center"><i class="fa fa-envelope" aria-hidden="true"></i> Email para esclarecer dúvidas: Andrei_walk@hotmail.com</H5>
+				<H5 class="center"><i class="fa fa-envelope" aria-hidden="true"></i> Email para solicitar serviços e orçamentos: Andreisilva12@gmail.com</H5>
+				<H5 class="center"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email para Suporte: Andreisilva62.as@gmail.com</H5>
+				<BR>
+					<h5 class="black-text center"><i class="fa fa-phone-square" aria-hidden="true"></i> Telefone Corporativo: 11-96043-4018</h5>
+					<h5 class="black-text center"><i class="fa fa-phone" aria-hidden="true"></i> Telefone MATRIZ-FW: 11-95317-4097</h5>
+					<br>
+					<p class="center">Desde já agradecemos por sua preferência em nossos serviços! <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container hide-on-med-and-down"> <!-- CONTAINER DE CONTEUDO DESKTOP-->
+		<div class="row">
+
+			<div class="col l12  grey lighten-3 z-depth-3" id="Colform"><!-- ESSA LINHA REPRESENTA AS COLUNAS DO CONTEUDO PRINCIPAL -->
+
+				<form class="col s12" id=colformulario><!-- FORMULARIO CONTATOS -->
+					<div class="row">
+						<div class="input-field col s6">
+							<input placeholder="Ex: Francisco Antônio" id="first_name" type="text" class="validate">
+							<label for="first_name"><p class="black-text"> Primeiro Nome</p></label>
+						</div>
+						<div class="input-field col s6">
+							<input placeholder="Ex: Da Silva" id="last_name" type="text" class="validate">
+							<label for="last_name"><p class="black-text">Último Nome</p></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input activate placeholder="Ex: 40 anos" id="idade" type="text" class="validate">
+							<label for="disabled"><p class="black-text">Idade</p></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="number" type="text" class="validate" placeholder="Ex: 11-2233-4455">
+							<label for="number"><p class="black-text">Telefone</p></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="email" type="email" class="validate" placeholder="fulano@mail.com">
+							<label for="email"><p class="black-text">Email</p></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<div class="input-field inline">
+								<input id="email" type="email" class="validate">
+								<label for="email" data-error="wrong" data-success="right"><p class="black-text">Confirme seu Email</p></label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s12">
+									<textarea id="textarea1" class="materialize-textarea"></textarea>
+									<label for="textarea1"><p class="black-text">Deixe seu comentário:</p></label>
+								</div>
+							</div>
+							<button class="waves-effect waves-darken btn red darken-3">ENVIAR <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="card  grey lighten-3  black-text medium z-depth-5"><!-- CARD MAIS CONTATOS -->
+			<div class="card-image waves-effect waves-block waves-darken">
+				<img class="activator" src="img/bandrei.jpg">
+			</div>
+			<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4"><h5 class="black-text center">CONTATE-ME PARA MAIS INFORMAÇÕES OU SERVIÇOS !</h5></span>
+
+			</div>
+			<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4"><h4 class="black-text">Contatos</h4><i class="fa fa-times" aria-hidden="true"></i></span>
+				<H5 class="center"><i class="fa fa-envelope" aria-hidden="true"></i> Email para esclarecer dúvidas: Andrei_walk@hotmail.com</H5>
+				<H5 class="center"><i class="fa fa-envelope" aria-hidden="true"></i> Email para solicitar serviços e orçamentos: Andreisilva12@gmail.com</H5>
+				<H5 class="center"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email para Suporte: Andreisilva62.as@gmail.com</H5>
+				<BR>
+					<h5 class="black-text center"><i class="fa fa-phone-square" aria-hidden="true"></i> Telefone Corporativo: 11-96043-4018</h5>
+					<h5 class="black-text center"><i class="fa fa-phone" aria-hidden="true"></i> Telefone MATRIZ-FW: 11-95317-4097</h5>
+					<br>
+					<p class="center">Desde já agradecemos por sua preferência em nossos serviços! <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> <!-- DIV PAINEL -->
+<footer id="rodape"  class="page-footer red darken-4 z-depth-0" ><!-- FOOOTER -->
+	<div class="container "  >
+		<h6 class="white-text"> Redes Sociais </h6>
+
+		<a href="https://www.facebook.com/Dreei.12" ><buttonm><img src="img/facebook.png" class="footericons"></button></a>
+		<a href="https://www.instagram.com/_anndreei/"><buttonm><img src="img/Instagram.png" class="footericons"></button></a>
+		<a href="https://www.linkedin.com/in/andrei-silva-4b5ab1111/" ><buttonm><img src="img/linkedin.png" class="footericons" "></button></a>
+		<a href="https://plus.google.com/u/0/110845354782107794891"><buttonm><img src="img/gmais.png" class="footericons" "></button></a>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+			<H6>© 2017 Desenvolvido por Andrei Dos S Silva</H6>
+			<a class="grey-text text-lighten-4 right" href="making.html"><H6>Making Off</H6></a><!-- IDEIA DE MAKING OF -->
+		</div>
+	</div>
+</footer>
+<script>/* SCRIPT VOLTA AO TOPO */
+	function toTop(){
+		$('html, body').animate({
+			scrollTop: 0
+		}, 100, 'linear');
+	}
+</script>
+
+<div class="hide-on-med-and-down"><!-- BOTAO VOLTA AO TOPO -->
+
+	<div class="fixed-action-btn">
+
+		<a id="view-fab" href="javascript:toTop();" class="btn-floating btn-large waves-effect waves-darken grey darken-1 z-depth-3 pulse"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+	</div>
+</div>
+<!-- MATERIALIZE JQUERY -->
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+
+	$(document).ready(function(){
+		$('.slider').slider({full_width: true});
+	});
+
+
+</script><!-- SLIDER -->
+<!-- MATERIALIZE JS --> 
+<script src="js/materialize.min.js"></script>
+<!-- BANNER -->
+
+
+<script>
+        // Menu MOBILE 
+        $(".button-collapse").sideNav();
+
+    </script>
+
+    
+
+
+
+</body>
+</html>
